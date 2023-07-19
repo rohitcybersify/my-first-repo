@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="./../src/spritespin.js" type="text/javascript"></script>
+    <style>
+        // Stitched source image or array of files
+source: undefined,
+
+// actual display width
+width : undefined,
+
+// actual display height
+height: undefined,
+
+// Total number of frames
+frames: undefined,
+
+// Number of frames in one row of sprite sheet (if source is a spritesheet)
+framesX   : undefined,
+
+lanes : 1,
+
+// The presentation module to use
+module: '360',
+
+// The interaction module to use
+behavior  : 'drag',   
+
+// The rendering mode to use
+renderer  : 'canvas', 
+
+lane  : 0,
+
+// Initial (and current) frame number
+frame : 0,
+
+// Time between up<a href="https://www.jqueryscript.net/time-clock/">date</a>s. Set to 40 which is 25 frames per second
+frameTime : 40,   
+
+// Runs animation
+animate   : true, 
+
+// If true animation is played backward
+reverse   : false,
+
+// Loops the animation
+loop  : true, 
+
+// Stops the animation at this frame if loop is disabled
+stopFrame : 0,
+
+// Same as 'loop' but for user interaction
+wrap  : true, 
+wrapLane  : false,
+
+// Interaction sensitivity used by behavior implementations
+sense : 1,
+
+// Interaction sensitivity used by behavior implementations
+senseLane : undefined,
+
+orientation   : 'horizontal', 
+detectSubsapling  : true,
+
+// Occurs when plugin has been initialized, but before loading the source files
+onInit: undefined,
+
+// Occurs when any source file has been loaded
+onProgress: undefined,
+
+// Occurs when all source files have been loaded
+onLoad: undefined,
+
+// Occurs when the frame number has been updated (e.g. during animation)
+onFrame   : undefined,
+
+// Occurs when all update is complete and frame can be drawn
+onDraw: undefined 
+    </style>
+</head>
+<body>
+    <div id="360frames">
+
+    </div>
+    <script type="text/javascript">
+        $(function(){
+        var frames = [
+        "images/rad_zoom_001.jpg",
+        "images/rad_zoom_002.jpg",
+        "images/rad_zoom_003.jpg",
+        "images/rad_zoom_004.jpg",
+        "images/rad_zoom_005.jpg",
+        "images/rad_zoom_006.jpg",
+        "images/rad_zoom_007.jpg",
+        "images/rad_zoom_008.jpg",
+        "images/rad_zoom_009.jpg",
+        "images/rad_zoom_010.jpg",
+        "images/rad_zoom_011.jpg",
+        "images/rad_zoom_012.jpg",
+        "images/rad_zoom_013.jpg",
+        "images/rad_zoom_014.jpg",
+        "images/rad_zoom_015.jpg",
+        "images/rad_zoom_016.jpg",
+        "images/rad_zoom_017.jpg",
+        "images/rad_zoom_018.jpg",
+        "images/rad_zoom_019.jpg",
+        "images/rad_zoom_020.jpg",
+        "images/rad_zoom_021.jpg",
+        "images/rad_zoom_022.jpg",
+        "images/rad_zoom_023.jpg",
+        "images/rad_zoom_024.jpg",
+        "images/rad_zoom_025.jpg",
+        "images/rad_zoom_026.jpg",
+        "images/rad_zoom_027.jpg",
+        "images/rad_zoom_028.jpg",
+        "images/rad_zoom_029.jpg",
+        "images/rad_zoom_030.jpg",
+        "images/rad_zoom_031.jpg",
+        "images/rad_zoom_032.jpg",
+        "images/rad_zoom_033.jpg",
+        "images/rad_zoom_034.jpg"
+        ];
+        
+        $("#360frames").spritespin({
+        width : 480,
+        height: 327,
+        frames: frames.length,
+        behavior: "drag", // "hold"
+        module: "360",
+        sense : -1,
+        source: frames,
+        animate : true,
+        loop: true,
+        frameWrap : true,
+        frameStep : 1,
+        frameTime : 60,
+        enableCanvas : true
+        });
+        
+        });
+        </script>
+</body>
+</html>

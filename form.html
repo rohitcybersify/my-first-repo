@@ -1,0 +1,92 @@
+{% form 'contact' %}
+            {% if form.posted_successfully? %}
+            <div class="ame-com com-message message-success">
+                <p>{{ 'contact.form.post_success' | t }}</p>
+            </div>
+            {% endif %}
+
+            {% if form.errors %}
+            <div class="ame-com com-message message-success">
+                <p>{{ form.errors | default_errors }}</p>
+            </div>
+            {% endif %}
+                  <div class="ame-for form-group">
+              <div class="for-item form-group__field">
+                    <div class="input-field">
+                        <label class="input-field__label h6" for="ContactFormName">
+                            First Name
+                        </label>
+                        <input id="ContactFormName" name="contact[fname]" placeholder="First Name" type="text" value=""
+                            class="item-element input-field__text input-field__text--fluid ">
+                    </div>
+                </div>
+               <div class="for-item form-group__field">
+                   <div class="input-field ">
+                        <label class="input-field__label h6" for="ContactFormlname">
+                            Last name
+                        </label>
+                        <input id="ContactFormlname" name="contact[lname]" placeholder="Last Name" type="text" value=""
+                            class="item-element input-field__text input-field__text--fluid ">
+                    </div>
+               </div>
+                <div class="for-item form-group__field">
+                    <div class="input-field ">
+                        <label class="input-field__label h6" for="ContactFormEmail">
+                            Email
+                        </label>
+                        <input id="ContactFormEmail" name="contact[email]" placeholder="Email" type="email" value=""
+                            class="item-element input-field__email input-field__email--fluid ">
+                    </div>
+                </div>
+                <div class="for-item form-group__field">
+                    <div class="input-field ">
+                        <label class="input-field__label h6" for="ContactFormPhone">
+                            Phone Number
+                        </label>
+                        <input id="ContactFormPhone" name="contact[phone]" placeholder="Phone Number" type="tel"
+                            value="" class="item-element input-field__tel input-field__tel--fluid ">
+                    </div>
+                </div>
+              <div class="for-item form-group__field">
+                  <div class="input-field">
+                    <label for="input-field__label h6"></label>
+                    <select id="ContactFormbrand" name="contact[jewelry-type]" class="drop-down-message item-element">
+                      <option>Jewelry Type</option>
+                      <option value="Engagement Ring">Engagement Ring</option>
+                      <option value="Ladies' Band">Ladies' Band</option>
+                      <option value="Mens' Band">Mens' Band</option>
+                      <option value="Pendant/Necklace">Pendant/Necklace</option>
+                      <option value="Earrings">Earrings</option>
+                      <option value="Bracelet">Bracelet</option>
+                      <option value="Other">Other</option>
+                  </select>
+               </div>
+              </div>
+			   <div class="for-item form-group__field">
+                  <div class="input-field">
+                    <label for="input-field__label h6"></label>
+                    <select id="ContactFormbrand" name="contact[metal-type]" class="drop-down-message item-element">
+                      <option>Metal type</option>
+                      <option value="White Gold">White Gold</option>
+                      <option value="Yellow Gold">Yellow Gold</option>
+                      <option value="Rose Gold">Rose Gold</option>
+                      <option value="Platinum">Platinum</option>
+                      <option value="Titanium">Titanium</option>
+                      <option value="Cobalt">Cobalt</option>
+                      <option value="Stainless Steel">Stainless Steel</option>
+                  </select>
+               </div>
+              </div>
+                <div class="for-item form-group__field">
+                    <div class="input-field ">
+                        <label class="input-field__label h6" for="ContactFormMessage">
+                            Message
+                        </label>
+                        <textarea id="ContactFormMessage" name="contact[body]" placeholder="Describe Your Design in Detail" rows="10"
+                            spellcheck="false"
+                            class="item-element input-field__textarea input-field__textarea--fluid "></textarea>
+                    </div>
+                </div>
+            </div>
+            <input type="submit" class="ame-but button--block" value="{{ 'contact.form.send' | t }}">
+            {% endform %}
