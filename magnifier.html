@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .my-image {
+  width: 400px;
+  height: 400px;
+  margin: 20px;
+}
+
+#target {
+  width: 800px;
+  height: 800px;
+  margin: 20px;
+}
+
+input[type=color] {
+  width: 30px;
+  padding: 0;
+  border: none;
+  margin: 0;
+}
+    </style>
+</head>
+<body>
+    <img src="http://picsum.photos/1200/1200" alt="" class="my-image">
+<div id="target"></div>
+
+<!-- <input type="color">  -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-zoom/1.7.21/jquery.zoom.min.js"></script>
+<script>
+    $(function () {
+  $('.my-image')
+    .wrap('<span style="display:inline-block"></span>')
+    .css('display', 'block')
+    .parent()
+    .zoom({
+    magnify: 2,
+    target: '#target'
+  });;
+})
+</script>
+</body>
+</html>

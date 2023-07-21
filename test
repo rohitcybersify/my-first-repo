@@ -1,0 +1,131 @@
+<div class="highlights-banner__content highlight-banner__count-4">
+    
+      
+        <div class="highlights-banner__block highlights-banner__align-center" data-highlights-block="">
+          
+            <div class="highlights-banner__icon">
+              
+                
+
+
+                              <svg class="icon-delivery-cart " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">      <path d="M6.33789 37.5833C6.33789 39.042 6.91735 40.441 7.9488 41.4724C8.98025 42.5039 10.3792 43.0833 11.8379 43.0833C13.2966 43.0833 14.6955 42.5039 15.727 41.4724C16.7584 40.441 17.3379 39.042 17.3379 37.5833C17.3379 36.1246 16.7584 34.7257 15.727 33.6942C14.6955 32.6628 13.2966 32.0833 11.8379 32.0833C10.3792 32.0833 8.98025 32.6628 7.9488 33.6942C6.91735 34.7257 6.33789 36.1246 6.33789 37.5833V37.5833Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M13.6714 32.428V2.75C13.6714 2.26377 13.4782 1.79746 13.1344 1.45364C12.7906 1.10982 12.3243 0.916668 11.8381 0.916668H8.17139" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M16.9951 39.4167H33.1009C33.5737 39.4166 34.0283 39.5992 34.3696 39.9263L37.6696 43.0833" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M21.0046 35.75H33.8379C34.3241 35.75 34.7904 35.5568 35.1343 35.213C35.4781 34.8692 35.6712 34.4029 35.6712 33.9167V21.0833C35.6712 20.5971 35.4781 20.1308 35.1343 19.787C34.7904 19.4432 34.3241 19.25 33.8379 19.25H17.3379V29.3333" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M30.1712 11.9167C30.1712 11.4304 29.9781 10.9641 29.6343 10.6203C29.2904 10.2765 28.8241 10.0833 28.3379 10.0833H19.1712C18.685 10.0833 18.2187 10.2765 17.8749 10.6203C17.531 10.9641 17.3379 11.4304 17.3379 11.9167V19.25H30.1712V11.9167Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M32.0046 32.0833H28.3379" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M22.8377 15.5833H21.0044" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>    </svg>                                                                                      
+
+              
+            </div>
+          
+
+          <div class="highlights-banner__text">
+            
+              <span class="highlights-banner__heading">
+                Free Shipping
+              </span>
+            
+
+            
+              <p>When you spend $50 or more</p>
+            
+          </div>
+          
+            <a class="highlights-banner__block-link" href="/pages/shipping-returns">
+            </a>
+          
+        </div>
+      
+    
+      
+        <div class="highlights-banner__block highlights-banner__align-center" data-highlights-block="">
+          
+            <div class="highlights-banner__icon">
+              
+                
+
+
+                      <svg class="icon-chat " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">      <path d="M15.5832 24.75H13.7498L6.4165 32.0833V24.75H2.74984C2.26361 24.75 1.79729 24.5569 1.45347 24.213C1.10966 23.8692 0.916504 23.4029 0.916504 22.9167V2.75001C0.916504 2.26377 1.10966 1.79746 1.45347 1.45364C1.79729 1.10983 2.26361 0.916672 2.74984 0.916672H33.9165C34.4027 0.916672 34.869 1.10983 35.2129 1.45364C35.5567 1.79746 35.7498 2.26377 35.7498 2.75001V13.75" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M19.25 33.9167C19.25 34.4029 19.4432 34.8692 19.787 35.213C20.1308 35.5569 20.5971 35.75 21.0833 35.75H31.1667L39.4167 43.0833V35.75H41.25C41.7362 35.75 42.2025 35.5569 42.5464 35.213C42.8902 34.8692 43.0833 34.4029 43.0833 33.9167V19.25C43.0833 18.7638 42.8902 18.2975 42.5464 17.9536C42.2025 17.6098 41.7362 17.4167 41.25 17.4167H21.0833C20.5971 17.4167 20.1308 17.6098 19.787 17.9536C19.4432 18.2975 19.25 18.7638 19.25 19.25V33.9167Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>    </svg>                                                                                              
+
+              
+            </div>
+          
+
+          <div class="highlights-banner__text">
+            
+              <span class="highlights-banner__heading">
+                Here to Help
+              </span>
+            
+
+            
+              <p>Get in touch with us 7 days a week</p>
+            
+          </div>
+          
+            <a class="highlights-banner__block-link" href="/pages/contact-us">
+            </a>
+          
+        </div>
+      
+    
+      
+        <div class="highlights-banner__block highlights-banner__align-center" data-highlights-block="">
+          
+            <div class="highlights-banner__icon">
+              
+                
+
+
+                                                                            <svg class="icon-store " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">      <path d="M39.875 23.375V39.875C39.875 40.6043 39.5853 41.3038 39.0695 41.8195C38.5538 42.3353 37.8543 42.625 37.125 42.625H6.875C6.14565 42.625 5.44618 42.3353 4.93046 41.8195C4.41473 41.3038 4.125 40.6043 4.125 39.875V23.375" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M38.7713 1.375H5.22867C4.91571 1.37495 4.61208 1.48151 4.3678 1.67714C4.12352 1.87276 3.95317 2.14577 3.88483 2.45117L1.375 13.75C1.375 14.844 1.8096 15.8932 2.58318 16.6668C3.35677 17.4404 4.40598 17.875 5.5 17.875C6.59402 17.875 7.64323 17.4404 8.41682 16.6668C9.1904 15.8932 9.625 14.844 9.625 13.75C9.625 14.844 10.0596 15.8932 10.8332 16.6668C11.6068 17.4404 12.656 17.875 13.75 17.875C14.844 17.875 15.8932 17.4404 16.6668 16.6668C17.4404 15.8932 17.875 14.844 17.875 13.75C17.875 14.844 18.3096 15.8932 19.0832 16.6668C19.8568 17.4404 20.906 17.875 22 17.875C23.094 17.875 24.1432 17.4404 24.9168 16.6668C25.6904 15.8932 26.125 14.844 26.125 13.75C26.125 14.844 26.5596 15.8932 27.3332 16.6668C28.1068 17.4404 29.156 17.875 30.25 17.875C31.344 17.875 32.3932 17.4404 33.1668 16.6668C33.9404 15.8932 34.375 14.844 34.375 13.75C34.375 14.844 34.8096 15.8932 35.5832 16.6668C36.3568 17.4404 37.406 17.875 38.5 17.875C39.594 17.875 40.6432 17.4404 41.4168 16.6668C42.1904 15.8932 42.625 14.844 42.625 13.75L40.1133 2.45117C40.0457 2.14576 39.8758 1.8726 39.6317 1.6769C39.3877 1.48121 39.0841 1.3747 38.7713 1.375Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M34.375 30.25C34.375 28.7913 33.7955 27.3924 32.7641 26.3609C31.7326 25.3295 30.3337 24.75 28.875 24.75C27.4163 24.75 26.0174 25.3295 24.9859 26.3609C23.9545 27.3924 23.375 28.7913 23.375 30.25V42.625H34.375V30.25Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M9.625 28.875H17.875V37.125H9.625V28.875Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>    </svg>                                        
+
+              
+            </div>
+          
+
+          <div class="highlights-banner__text">
+            
+              <span class="highlights-banner__heading">
+                Store Pickup
+              </span>
+            
+
+            
+              <p>Pick up your order yourself, for free</p>
+            
+          </div>
+          
+            <a class="highlights-banner__block-link" href="/pages/contact-us">
+            </a>
+          
+        </div>
+      
+    
+      
+        <div class="highlights-banner__block highlights-banner__align-center" data-highlights-block="">
+          
+            <div class="highlights-banner__icon">
+              
+                
+
+
+                                                                              <svg class="icon-transfer " aria-hidden="true" focusable="false" role="presentation" xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44" fill="none">      <path d="M1.375 22C1.375 27.4701 3.54798 32.7161 7.41592 36.5841C11.2839 40.452 16.5299 42.625 22 42.625C27.4701 42.625 32.7161 40.452 36.5841 36.5841C40.452 32.7161 42.625 27.4701 42.625 22C42.625 16.5299 40.452 11.2839 36.5841 7.41592C32.7161 3.54798 27.4701 1.375 22 1.375C16.5299 1.375 11.2839 3.54798 7.41592 7.41592C3.54798 11.2839 1.375 16.5299 1.375 22V22Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M16.5 15.125H31.625" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M26.125 9.625L31.625 15.125L26.125 20.625" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M27.5 28.875H12.375" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>      <path d="M17.875 34.375L12.375 28.875L17.875 23.375" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>    </svg>                                      
+
+              
+            </div>
+          
+
+          <div class="highlights-banner__text">
+            
+              <span class="highlights-banner__heading">
+                Easy Exchanges
+              </span>
+            
+
+            
+              <p>Return or exchange within 60 days</p>
+            
+          </div>
+          
+            <a class="highlights-banner__block-link" href="/pages/shipping-returns">
+            </a>
+          
+        </div>
+      
+    
+  </div>
